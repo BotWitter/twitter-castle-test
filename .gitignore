@@ -1,0 +1,34 @@
+# Compiled binaries / build output
+/bin/
+*.exe
+*.exe~
+*.out
+*.test
+
+# Local environment / secrets — never commit real proxy or backend creds
+.env
+.env.local
+*.local
+
+# Capture / debug artifacts
+/capture/
+/_unklog/
+/jfcap_batch/
+/jfcap_unk/
+/jfcap_pass/
+/jfprobe_out/
+*.bin
+*.hex
+*.strings.txt
+
+# Root scratch files (ad-hoc scripts, logs, fingerprint dumps)
+/_*.log
+/_*.sh
+/_*.py
+/[0-9].json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
